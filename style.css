@@ -49,18 +49,26 @@ section img{
     height: 20rem;   
 }
 
-.whats{
+.whats a{
     width: 150px;
     height: 70px;
-    margin-top: 15px;
+    text-decoration: none;
+    color: brown;
     font-size: 25px;
     font-weight: 800;
-    border: solid 2px #fff;
-    border-radius: 8px 1px 1px 10px;
-    opacity: 0.5;
+}
+
+.whats{
+    width: 250px;
+    height: 100px;
+    margin-top: 5px;
+    border: 0;
+    border-radius: 10px;
+    justify-content: center;
+    transition: 1s;
 }
 
 .whats :hover{
-    opacity: 1;
+    color: rgb(104, 17, 17);
     cursor: pointer;
 }
