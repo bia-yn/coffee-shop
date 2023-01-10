@@ -10,8 +10,12 @@ font-family: 'Playfair Display', serif;*/
 }
 
 nav{
+    position: fixed;
+    background-color: #fff;
+    border-bottom: brown 1px solid;
     width: 100%;
-    height: 60px;
+    height: 90px;
+    align-items: center;
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -34,7 +38,7 @@ nav .logo img{
 
 /*parte 2 do fundo*/
 .fundo1{
-    background-image: url(/img/fundoArvore.jpg);
+    background-image: linear-gradient(to bottom, transparent 5%, #fff 100%), url(/img/fundoArvore.jpg);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -71,4 +75,66 @@ section img{
 .whats :hover{
     color: rgb(104, 17, 17);
     cursor: pointer;
+}
+
+/*a parte das fotos*/
+
+.tudo1 , .tudo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.tudo1 img , .tudo2 img {
+    width: 30%;
+    height: 80vh;
+}
+
+
+.tudo1 {
+    flex-direction: row-reverse;
+}
+
+
+
+.textP{
+    gap: 20px;
+    width: 40%;
+    height: 300px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.textP h1{
+    color: brown;
+    font-size: 40px;
+}
+
+/*fundo 2*/
+.fundo2{
+    background-image: url(/img/fundoBanco.jpg);
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fundo2 p{
+    width: 40%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*footer*/
+.footer{
+    width: 100%;
+    height: 80vh;
+    background-color: brown;
+    color: #fff;
 }

@@ -58,6 +58,70 @@ section img{
     color: rgb(104, 17, 17);
     cursor: pointer;
 }
-    
+ 
+
+/*parte 2 do fundo*/
+.fundo1{
+    height: 100vh;
+    margin-bottom: 50px;
+
+}
+
+section img{
+    width: 20rem;
+    height: 20rem;   
+}
+
+.whats a{
+    width: 150px;
+    height: 70px;
+    text-decoration: none;
+    color: brown;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.whats{
+    width: 250px;
+    height: 100px;
+    margin-top: 5px;
+    border: 0;
+    border-radius: 10px;
+    justify-content: center;
+    transition: 1s;
+}
+
+.whats :hover{
+    color: rgb(104, 17, 17);
+    cursor: pointer;
+}
+
+/*a parte das fotos*/
+
+.tudo1 , .tudo2{
+    gap: 20px;
+}
+
+
+.tudo1 img , .tudo2 img {
+    width: 30%;
+    height: 40vh;
+}
+
+img .tudo1{
+    float: right;
+}
+
+.textP{
+    gap: 20px;
+    width: 40%;
+    height: 50px;
+    font-size: 12px;
+}
+
+.textP h1{
+    font-size: 20px;
+}
+
 }
 
