@@ -111,30 +111,67 @@ section img{
 
 .textP h1{
     color: brown;
+    margin-bottom: 30px;
     font-size: 40px;
 }
 
-/*fundo 2*/
-.fundo2{
-    background-image: url(/img/fundoBanco.jpg);
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.fundo2 p{
-    width: 40%;
-    color: #fff;
-    font-size: 20px;
-    text-align: center;
-}
-
 /*footer*/
-.footer{
+#footer{
     width: 100%;
-    height: 80vh;
+    height: 70vh;
+    margin-top: 50px;
     background-color: brown;
     color: #fff;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    display: flex;
+    flex-direction: row;
 }
+
+footer img{
+    width: 20vh;
+    height: 20vh;
+}
+
+#logoFooter{
+    background-color: #fff;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+}
+
+.footerDiv{
+    width: 25%;
+}
+
+
+.footerDiv h1{
+    border-bottom: 2px solid darkgoldenrod;
+    font-size: 30px;
+
+}
+
+.footerDiv p {
+    font-size: 20px;
+    margin: 10px;
+}
+
+/*creditos*/
+#footerB{
+    width: 100%;
+    height: 8vh;
+    background-color: #fff;
+}
+
+#footerB p{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+
+  
+
+}
+
+
